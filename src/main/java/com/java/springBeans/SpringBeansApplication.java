@@ -15,6 +15,7 @@ public class SpringBeansApplication {
 	}
 
 
+	@Bean
 	public Customer customerOne(@Qualifier("address2") String address) {
 		return new Customer("Clara Forester", address);
 	}

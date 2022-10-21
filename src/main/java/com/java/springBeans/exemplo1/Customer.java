@@ -1,4 +1,4 @@
-package com.java.springBeans;
+package com.java.springBeans.exemplo1;
 
 public class Customer {
     private final String name;

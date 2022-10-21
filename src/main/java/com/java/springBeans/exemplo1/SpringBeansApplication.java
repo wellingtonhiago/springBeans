@@ -1,4 +1,4 @@
-package com.java.springBeans;
+package com.java.springBeans.exemplo1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,6 +20,7 @@ public class SpringBeansApplication {
 		return new Customer("Clara Forester", address);
 	}
 
+	// Criado apenas para imprimir as informações durante a inicialização da aplicação
 	@Bean
 	public Customer temporary(@Autowired Customer customer) {
 		System.out.println(customer);
